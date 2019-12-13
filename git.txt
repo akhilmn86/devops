@@ -1,0 +1,36 @@
+Git
+------
+1) Add your git hub email and username to git
+	#git config --global user.email "mn.akhil86@gmail.com"
+	#git config --global user.name "akhilmn86"
+
+2) Add file /folders to git - traching the changes
+
+3) Commands
+	#git init
+	#git status
+	#git add test1.txt
+	#git commit -m "added test1.txt"
+	#git remote add origin https://github.com/akhilmn86/Repo1.git
+	#git push -u origin master
+
+Git Braches
+===========
+	1) what are braches
+	2) How to create brache
+	3) How to checkout branch
+	4) How to merge branch to master
+	5) How to delete branch (local and remote)
+	
+1) Create branch
+	git branch "<branch name>"
+	
+2) Check out branch (Switched to new branch)
+	git checkout "<brache name>"
+ 
+3) Merge new branch in master brache
+	git merge "<brache name>"
+
+4) Delete brache
+	git brache -d "brache name"   			 --- delete from local
+	git push origin --delete "brache name" 	 --- delete from remote
